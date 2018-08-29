@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!--指定namenode的地址-->
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://master:8020</value>
+    </property>
+    <!--用来指定使用hadoop时产生文件的存放目录-->
+    <property>
+        <name>dfs.nfs3.dump.dir</name>
+        <value>file:////tmp/.hdfs-nfs</value>
+    </property>
+
+</configuration>
